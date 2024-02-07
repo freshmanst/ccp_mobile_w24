@@ -1,0 +1,101 @@
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.navigation li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: black; 
+}
+
+
+.navigation .active a {
+    color: blue; 
+}
+
+
+.skip-link {
+    position: absolute;
+    left: -999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: -999;
+}
+
+.skip-link:focus, 
+.skip-link:active {
+    left: 0;
+    top: 0;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    z-index: 9999;
+    padding: 10px;
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    text-decoration: none;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.grid-item {
+    /* If you want a flexible grid that adjusts based on the content size, use this: */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centers the content on the cross axis */
+}
+
+.grid-item img {
+    max-width: 100%; /* ensures the image is responsive and does not overflow */
+    height: auto; /* maintains the aspect ratio */
+    margin-bottom: 10px; /* space between image and text */
+}
+
+section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
