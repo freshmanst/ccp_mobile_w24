@@ -7,7 +7,7 @@ ul {
 
 header nav {
     border: 1px solid transparent;
-    background-color: #bbbab0;
+    background-color: #424241;
     /* border-radius: 10px;  */
 }
 
@@ -37,13 +37,13 @@ header {
 }
 
 .navigation li a:hover {
-    background-color: #eef2af; 
+    background-color: #d9dcb5; 
     color: #000; 
 }
 
 
 .navigation .active a {
-    color: rgb(142, 142, 19); 
+    color: rgb(54, 63, 18); 
     font-weight: bold;
     background-color: #f0f0f0;
     padding: 10px 10px;
