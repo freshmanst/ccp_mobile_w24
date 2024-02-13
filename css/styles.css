@@ -18,8 +18,6 @@ header {
 }
 
 
-
-
 .navigation li {
     border: 1px solid transparent; 
     border-radius: 10px; 
@@ -109,6 +107,12 @@ section {
     border-radius: 20px;
 }
 
+h1 {
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: 700; 
+  }
+
 
 img {
 
@@ -132,4 +136,5 @@ video {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: #f0f0f0
 }
